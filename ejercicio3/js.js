@@ -99,7 +99,7 @@ function muestraDatos(equipos,quinielas){
             case 'X':alert("Han empatado");break;
             case '1':alert("Ha ganado el " + equipo1);break;
             case '2':alert("Ha ganado el " + equipo2);break;
-            case 'NJ':alert("!COMO SE VA A JUGAR ESE PARTIDO SI ES EL MISMO EQUIPO¡");break;setInterval
+            case 'NJ':alert("!COMO SE VA A JUGAR ESE PARTIDO SI ES EL MISMO EQUIPO¡");break;
         }
         respuesta = prompt("¿Quiere consultar algun otro resultado de otro partido?");
     }
